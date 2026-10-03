@@ -35,22 +35,6 @@ All astronomical calculations run client-side in JavaScript:
 - [jsPDF](https://github.com/parallax/jsPDF) + [jsPDF-AutoTable](https://github.com/simonbengtsson/jsPDF-AutoTable) (loaded via CDN) for the downloadable PDF report
 - [Nominatim (OpenStreetMap)](https://nominatim.org/) for live place-name geocoding
 
-## 🚀 Deploy / Run
-
-This is a single `index.html` file — any static host works.
-
-**Option A — Netlify (fastest)**
-1. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
-2. Drag `index.html` in → get a live URL instantly
-
-**Option B — GitHub Pages (this repo)**
-1. Go to **Settings → Pages**
-2. Under "Branch," select `main` and `/ (root)` → **Save**
-3. Your site will be live at `https://<your-username>.github.io/Astro-Z-Vedic-Kundli-Generator/`
-
-**Option C — Run locally**
-Just open `index.html` in any browser. No server required.
-
 > **Note:** Live place-name lookup (geocoding) requires network access to `nominatim.openstreetmap.org`, so it works once deployed to a real host, but not from a `file://` path in every browser due to CORS. The built-in city dropdown works everywhere, including offline.
 
 ## 📂 Project Structure
